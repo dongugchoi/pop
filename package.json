@@ -1,0 +1,22 @@
+{
+    "name": "excel",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "verify:layout": "node scripts/verify-layout.cjs",
+        "verify:print": "node scripts/verify-print.cjs"
+    },
+    "dependencies": {
+        "@mdi/font": "7.4.47",
+        "exceljs": "^4.4.0",
+        "utif": "^3.1.0",
+        "vue": "2.7.16",
+        "vuetify": "2.7.2"
+    },
+    "devDependencies": {
+        "@vue/cli-service": "5.0.8",
+        "vue-template-compiler": "2.7.16"
+    }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+scan-reference.png
+.DS_Store
+*.log
+.env.local
+.env.*.local
